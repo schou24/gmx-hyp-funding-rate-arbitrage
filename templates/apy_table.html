@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Analysis</h1>
+    <table>
+      <tr>
+        <th>Crypto</th>
+        <th>LGM-SGM</th>
+        <th>LGM-SHL</th>
+        <th>LHL-SGM</th>
+        <th>Max</th>
+      </tr>
+      <tr>
+        <td>BTC</td>
+        <td>{{ gmx_long_gmx_short_btc }}</td>
+        <td>{{ gmx_long_hyp_short_btc }}</td>
+        <td>{{ hyp_long_gmx_short_btc }}</td>
+        <td>{{ max_btc }}</td>
+      </tr>
+      <tr>
+        <td>ETH</td>
+        <td>{{ gmx_long_gmx_short_eth }}</td>
+        <td>{{ gmx_long_hyp_short_eth }}</td>
+        <td>{{ hyp_long_gmx_short_eth }}</td>
+        <td>{{ max_eth }}</td>
+      </tr>
+      <tr>
+        <td>SOL</td>
+        <td>{{ gmx_long_gmx_short_sol }}</td>
+        <td>{{ gmx_long_hyp_short_sol }}</td>
+        <td>{{ hyp_long_gmx_short_sol }}</td>
+        <td>{{ max_sol }}</td>
+      </tr>
+      <tr>
+        <td>XRP</td>
+        <td>{{ gmx_long_gmx_short_xrp }}</td>
+        <td>{{ gmx_long_hyp_short_xrp }}</td>
+        <td>{{ hyp_long_gmx_short_xrp }}</td>
+        <td>{{ max_xrp }}</td>
+      </tr>
+      <tr>
+        <td>LINK</td>
+        <td>{{ gmx_long_gmx_short_link }}</td>
+        <td>{{ gmx_long_hyp_short_link }}</td>
+        <td>{{ hyp_long_gmx_short_link }}</td>
+        <td>{{ max_link }}</td>
+      </tr>
+    </table>
+  </body>
+</html>
